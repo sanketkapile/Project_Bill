@@ -18,9 +18,7 @@ public class Main {
 		int counter=1;
 		Scanner s = new Scanner(System.in);
 		ci.setCustomerDetails();
-		
 		displayOption();
-		
 		while(counter != 0) {
 			//select product and quantity of product from list
 			System.out.println("Please Enter Product ID for the Product");
